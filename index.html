@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <script src="java.js" defer></script>
+    <link rel="icon" type="image/png" href="logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>Кавовий Дзен</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+        <button class="header__toggle" id="mobile_menu">
+            <span class="header__bar"></span>
+            <span class="header__bar"></span>
+            <span class="header__bar"></span>
+        </button>
+
+        <ul class="header__list">
+            <li class="header__item"><a href="#" class="header__link">Головна</a></li>
+            <li class="header__item"><a href="#" class="header__link">Меню</a></li>
+            <li class="header__item"><a href="#" class="header__link">Про нас</a></li>
+            <li class="header__item"><a href="#" class="header__link">Контакти</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+        <img src="logo.jpg" alt="logo" class="hero__logo">
+        <h1 class="hero__title">Кавовий Дзен</h1>
+        <h2 class="hero__slogan">„ Гармонія в кожному горнятку ”</h2>
+        </section>
+
+        <section class="about-us">
+            <h2 class="about-us__title">Історія нашого спокою</h2>
+            <div class="about-us__content">
+                <p class="about-us__text">Все почалося з одного дуже метушливого ранку, коли світ навколо здавався занадто гучним. Ми зрозуміли: кожному з нас потрібне місце-пауза. Місце, де аромат свіжообсмажених зерен сильніший за шум великого міста.</p>
+                <p class="about-us__text">Так народився «Кавовий Дзен». Ми пройшли шлях від пошуків ідеального балансу в обсмажуванні до створення простору, де кожен елемент інтер'єру та кожен ковток напою налаштовують на гармонію. Ми не просто готуємо каву — ми створюємо умови для вашої щоденної медитації.</p>
+                <p class="about-us__text">Наша історія — це історія про те, як знайти тишу всередині себе, тримаючи в руках тепле горнятка еспресо.</p>
+
+                <blockquote class="about-us__quote">«Кава — це набагато більше, ніж просто напій; це те, що відбувається. Це подія, це місце, де можна бути, це час, але не в годинах, а в ковтках».
+                <cite>— Гертруда Стайн.</cite></blockquote> <br>
+            </div>
+        </section>
+
+        <section class="menu-section">
+            <h2 class="menu-section__title">Наше меню</h2>
+            <table class="menu-table">
+                <thead class="menu-table__head">
+                    <tr>
+                        <th>Напої / Десерти</th>
+                        <th>Опис</th>
+                        <th>Ціна</th>
+                    </tr>
+                </thead>
+
+                <tbody class="menu-table__body">
+                    <tr>
+                        <td>Еспресо</td>
+                        <td>Класична міцна кава з насиченим смаком.</td>
+                        <td>35 грн</td>
+                    </tr>
+                    <tr>
+                        <td>Американо</td>
+                        <td>Порція еспресо з додаванням гарячої води.</td>
+                        <td>35 грн</td>
+                    </tr>
+                    <tr>
+                        <td>Лате</td>
+                        <td>Кава з великою кількістю гарячого збитого молока.</td>
+                        <td>70 грн</td>
+                    </tr>
+                    <tr>
+                        <td>Капучино</td>
+                        <td>Збалансоване поєднання еспресо та молочної піни.</td>
+                        <td>60 грн</td>
+                    </tr>
+                    <tr>
+                        <td>Пончик</td>
+                        <td>Свіжа випічка з шоколадною або полуничною глазур’ю.</td>
+                        <td>60 грн</td>
+                    </tr>
+                    <tr>
+                        <td>Чизкейк</td>
+                        <td>Класичний сирний десерт на пісочній основі.</td>
+                        <td>70 грн</td>
+                    </tr>
+                    <tr>
+                        <td>Бельгійська вафля</td>
+                        <td>Тепла товста вафля, що подається з медом або сиропом.</td>
+                        <td>75 грн</td>
+                    </tr>
+                    <tr>
+                        <td>Шоколадний торт</td>
+                        <td>Насичений бісквіт із шоколадним кремом.</td>
+                        <td>80 грн</td>
+                    </tr>
+                </tbody>
+            </table> <br>
+        </section>
+
+        <section class="menu-grid">
+            <div class="menu-grid__card menu-grid__card--big menu-grid__card--hit">
+                <img src="late.jpeg" alt="лате" class="menu-grid__img">
+                <h3 class="menu-grid__title">Лате</h3>
+                <p class="menu-grid__desc">Кава з великою кількістю гарячого збитого молока.</p>
+                <span class="menu-grid__price">70 грн</span>
+            </div>
+
+            <div class="menu-grid__card menu-grid__card--tall">
+                <img src="donate.jpeg" alt="пончик" class="menu-grid__img">
+                <h3 class="menu-grid__title">Пончик</h3>
+                <p class="menu-grid__desc">Свіжа випічка з шоколадною або полуничною глазур’ю.</p>
+                <span class="menu-grid__price">60 грн</span>
+            </div>
+
+            <div class="menu-grid__card">
+                <img src="americano.jpeg" alt="американо" class="menu-grid__img">
+                <h3 class="menu-grid__title">Американо</h3>
+                <p class="menu-grid__desc">Порція еспресо з додаванням гарячої води.</p>
+                <span class="menu-grid__price">35 грн</span>
+            </div>
+
+            <div class="menu-grid__card">
+                <img src="chese.jpeg" alt="чизкейк" class="menu-grid__img">
+                <h3 class="menu-grid__title">Чизкейк</h3>
+                <p class="menu-grid__desc">Класичний сирний десерт на пісочній основі.</p>
+                <span class="menu-grid__price">70 грн</span>
+            </div>
+        </section>
+
+        <section class="secrets">
+            <h2 class="secrets__title">Секрети баристи</h2>
+            <details class="secrets__details">
+                <summary class="secrets__summary">Як ми обсмажуємо зерна?</summary>
+                <ol class="secrets__list">
+                    <li>1. Відбір - закуповуємо лише перевірену 100% арабіку.</li>
+                    <li>2. Обсмаження - контролюємо температуру, щоб розкрити природний смак.</li>
+                    <li>3. Перший «крак» - ловимо момент ідеальної готовності зерна.</li>
+                    <li>4. Охолодження - швидко обдуваємо повітрям для збереження аромату.</li>
+                    <li>5. Відпочинок - даємо зерну відстоятися кілька днів перед пакуванням.</li>
+                </ol>
+            </details>
+        </section> <br>
+
+        <section class="gallery">
+            <h2 class="gallery__title">Галерея інтер'єру</h2>
+            <div class="gallery__container">
+                <img src="photo1.jpeg" class="gallery__img">
+                <img src="photo2.jpeg" class="gallery__img">
+                <img src="photo3.jpeg" class="gallery__img">
+                <img src="photo4.jpeg" class="gallery__img">
+                <img src="photo5.jpeg" class="gallery__img">
+            </div>
+        </section> <br>
+
+        <section class="video-section">
+            <h2 class="video-section__title">Атмосферне відео</h2>
+            <div class="video-section__container"> 
+                <iframe width="860" height="492" src="https://www.youtube.com/embed/_Okt6xVJHmU" title="Кав'ярня" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="reservation">
+            <form action="https://google.com" method="get" class="reservation__form form" target="_blank">
+                <fieldset class="form__group">
+                    <legend>Особисті дані</legend>
+                    <div class="form__flex">
+                        <div class="form__field">
+                            <label for="firstName__id">Ваше прізвище:</label>
+                            <input type="text" name="firstName" id="firstName__id" required class="form__control" placeholder="Прізвище">
+                        </div>
+                        <div class="form__field">
+                            <label for="lastName__id">Ваше ім'я:</label>
+                            <input type="text" name="lastName" id="lastName__id" required class="form__control" placeholder="Ім'я">
+                        </div>
+                        <div class="form__field">
+                           <label for="telephone__id">Ваш номер телефону:</label>
+                           <input type="tel" name="telephone" id="telephone__id" required class="form__control" placeholder="+380...">
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="form__group">
+                    <legend>Деталі замовлення</legend>
+                    <div class="form__flex">
+                        <div class="form__field">
+                            <label for="number__id">Кількість людей:</label>
+                            <input type="number" name="number" id="number__id" required class="form__control">
+                        </div>
+                        <div class="form__field">
+                            <label for="date__id">Дата візиту:</label>
+                            <input type="date" name="date" id="date__id" class="form__control">
+                        </div>
+                        <div class="form__field form__field--full">
+                            <label for="area__id">Особисті побажання:</label>
+                            <textarea name="comments" id="area__id" rows="5" class="form__control" placeholder="Ваші побажання..."></textarea>
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit" class="form__submit">Забронювати столик</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__logo">
+                <p>logo</p>
+            </div>
+            <div class="footer__menu">
+                <details>
+                    <summary>Меню</summary>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Додому</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Про нас</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Контакти</a></li>
+                    </ul>
+                </details>
+            </div>
+            <div class="footer__socials">
+                <div class="footer__social-item">Instagram</div>
+                <div class="footer__social-item">Facebook</div>
+                <div class="footer__social-item">Telegram</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
